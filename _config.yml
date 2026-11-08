@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────
+#  Site settings (theme: Lagrange by Paul Le, MIT licence)
+#  Menu, social links and wording are in _data/settings.yml
+# ─────────────────────────────────────────────────────────────
+title:        "Jeremia Oktavian Chrisnanto"
+description:  "notes on research, science, philosophy and random things"
+author:       "Jeremia"
+
+# Served at https://jeremiaoc.github.io/
+url:          "https://jeremiaoc.github.io"
+baseurl:      ""
+
+markdown:     kramdown
+kramdown:
+  input: GFM
+highlighter:  rouge
+permalink:    /:title/
+timezone:     Asia/Tokyo
+paginate:     5
+plugins:      [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Hide parts of the post page
+hide_post_share: true      # Twitter/Facebook share buttons
+hide_related_posts: false  # "You may also enjoy" (posts sharing a tag)
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+
+exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock, vendor]

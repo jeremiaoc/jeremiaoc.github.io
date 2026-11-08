@@ -1,0 +1,27 @@
+# Comments (Disqus) — set comments: true and your shortname to enable
+disqus:
+  comments: false
+  disqus_shortname: ''
+
+# Google Analytics — leave empty to disable
+google-ID: ''
+
+menu:
+- {name: 'About',   url: 'about/'}
+- {name: 'Writing', url: 'writing/'}
+
+# Icons from Font Awesome 4.7 (https://fontawesome.com/v4/icons/)
+social:
+- {icon: 'github',     link: 'https://github.com/jeremiaoc'}
+# - {icon: 'envelope',   link: 'mailto:you@example.com'}
+# - {icon: 'graduation-cap', link: 'https://scholar.google.com/...'}
+# - {icon: 'linkedin',   link: 'https://www.linkedin.com/in/...'}
+- {icon: 'rss-square', link: '/feed.xml'}
+
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+related_posts: 'You may also enjoy:'
+post_date_prefix: 'Written on'

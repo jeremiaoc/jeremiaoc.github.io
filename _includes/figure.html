@@ -1,0 +1,4 @@
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/img/posts/{{ include.src }}" alt="{{ include.alt | default: include.caption | strip_html }}" loading="lazy">
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
